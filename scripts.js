@@ -12,7 +12,7 @@ const currentTime = () => {
     hours = hours - 12;
     session = "PM";
   }
-
+//variable = condition ? if true : if false; 
   hours = hours < 10 ? "0" + hours : hours;
   minutes = minutes < 10 ? "0" + minutes : minutes;
   seconds = seconds < 10 ? "0" + seconds : seconds;
